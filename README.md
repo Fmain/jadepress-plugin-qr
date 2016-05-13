@@ -4,6 +4,23 @@
 
 jade-press plugin which add qrcode api `/qr?text={text}`
 
+## use
+```javascript
+//in jade-press config.js
+exports.setting = {
+    //...
+    plugins: {
+        'jadepress-plugin-qr': '*'
+    }
+    //...
+}
+```
+
+then install
+
+```bash
+gulp install
+```
 
 ## test
 ```bash
@@ -25,6 +42,11 @@ npm install mocha -g
 npm install bower -g
 npm install
 bower install
+npm i jadepress-theme-pi
+mkdir node_modules/jadepress-plugin-qr
+cp -r plugins node_modules/jadepress-plugin-qr/
+
+# if edit file, run "gulp watch"
 npm run test
 
 # if npm install failed
