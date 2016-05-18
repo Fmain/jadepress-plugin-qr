@@ -1,6 +1,6 @@
 {
   "name": "jadepress-plugin-qr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jadepress-plugin-qr",
   "main": "index.js",
   "scripts": {
@@ -43,6 +43,9 @@
     "request": "^2.72.0",
     "run-sequence": "1.1.5",
     "selenium-server": "^2.53.0"
+  },
+  "peerDependencies": {
+    "jade-press": "*"
   },
   "license": "MIT",
   "bugs": {

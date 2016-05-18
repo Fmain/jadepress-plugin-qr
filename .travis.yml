@@ -34,5 +34,6 @@ before_install:
 before_script:
   - npm install -g bower
   - npm i jadepress-theme-pi
+  - npm i jade-press
   - mkdir node_modules/jadepress-plugin-qr
   - cp -r plugins node_modules/jadepress-plugin-qr/
