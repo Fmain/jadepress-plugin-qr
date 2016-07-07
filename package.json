@@ -1,6 +1,6 @@
 {
   "name": "jadepress-plugin-qr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "jadepress-plugin-qr",
   "main": "index.js",
   "scripts": {
@@ -42,7 +42,7 @@
     "nightwatch": "^0.8.18",
     "request": "^2.72.0",
     "run-sequence": "1.1.5",
-    "selenium-server": "^2.53.0"
+    "selenium-server": "2.53.1"
   },
   "peerDependencies": {
     "jade-press": "*"
